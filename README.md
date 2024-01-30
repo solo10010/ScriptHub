@@ -10,6 +10,7 @@
 curl -sSL https://solo10010.github.io/ScriptHub/test.sh | bash
 ```
 **Описание:** - Данный скрипт выводит Hello World
+
 **Аргументы** - нету
 
 ---
