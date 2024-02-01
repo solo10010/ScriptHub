@@ -1,5 +1,7 @@
 
-![logo](https://raw.githubusercontent.com/solo10010/ScriptHub/main/ScriptHub.png "ScriptHub Logo")
+<div align="center">
+  <img src="https://raw.githubusercontent.com/solo10010/ScriptHub/main/ScriptHub.png" alt="ScriptHub Logo" width="100%">
+</div>
 
 # ScriptHub
 
