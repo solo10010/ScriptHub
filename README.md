@@ -27,6 +27,17 @@ curl -sSL https://solo10010.github.io/ScriptHub/measure.py | python3
 ```
 ---
 
+**tuning-mysql.sh** - Скрипт для начинающих по настройке производительности MySQL На основе: MySQLARd http://gert.sos.be/demo/mysqlar/ Версия: 1.99 Дата выпуска: 10.06.2018 
+
+**Аргументы:** - нету
+
+**OS** - Linux
+
+```bash
+curl -sSL https://solo10010.github.io/ScriptHub/tuning-mysql.sh | bash
+```
+---
+
 **gtfonow.py** - Автоматическое повышение привилегий в системах unix путем использования неправильно настроенных двоичных файлов setuid/setgid, возможностей и разрешений sudo. Разработан для CTF, но также применим и в реальных пентестах.
 
 **Аргументы:** - нету
