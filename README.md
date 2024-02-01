@@ -1,7 +1,6 @@
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/solo10010/ScriptHub/main/ScriptHub.png" alt="ScriptHub Logo" width="100%">
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/solo10010/ScriptHub/main/ScriptHub.png" alt="ScriptHub Logo" width="800">
+</p>
 
 # ScriptHub
 
@@ -63,3 +62,4 @@ curl -sSL https://solo10010.github.io/ScriptHub/gtfonow.py | python3
 ```bash
 curl -L https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh | sh
 ```
+
