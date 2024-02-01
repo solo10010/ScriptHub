@@ -27,17 +27,19 @@ curl -sSL https://solo10010.github.io/ScriptHub/test.sh | bash
 ```bash
 curl -sSL https://solo10010.github.io/ScriptHub/measure.py | python3
 ```
+
 ---
 
-**lynis.sh** - это инструмент аудита безопасности для систем на базе UNIX, таких как Linux, macOS, BSD и других. Он выполняет углубленное сканирование безопасности и запускается в самой системе. Основная цель — протестировать средства защиты и предоставить советы по дальнейшему усилению защиты системы.
+**lbsa.sh** - (Linux Basic Security Audit script) — это базовый скрипт аудита конфигурации безопасности Linux-систем. Скрипт должен быть запущен из командной строки с привилегиям root или в идеале запускаться по расписанию на регулярной основе с помощью планировщика cron для систематической проверки изменений конфигурации. 
 
-**Аргументы:** - audit system
+**Аргументы:** - нету
 
 **OS** - Linux
 
 ```bash
-curl -sSL https://solo10010.github.io/ScriptHub/lynis.sh | bash -s audit system
+curl -sSL https://solo10010.github.io/ScriptHub/lbsa.sh | bash
 ```
+
 ---
 
 **tuning-mysql.sh** - Скрипт для начинающих по настройке производительности MySQL На основе: MySQLARd Версия: 1.99 Дата выпуска: 10.06.2018 
