@@ -6,25 +6,35 @@
 
 **test.sh** - Данный скрипт выводит просто Hello World
 
+**Аргументы:** - нету
+
+**OS** - Linux
+
 ```bash
 curl -sSL https://solo10010.github.io/ScriptHub/test.sh | bash
 ```
-
-**Аргументы:** - нету
-
-**OS** - любая
 
 ---
 
 **measure.py** - Данный скрипт Покажет измерение истинного потребления оперативной памяти и SWAP в Linux с группировкой по пользователям или приложениям
 
+**Аргументы:** - нету
+
+**OS** - Linux
+
 ```bash
 curl -sSL https://solo10010.github.io/ScriptHub/measure.py | python3
 ```
+---
+
+**gtfonow.py** - Автоматическое повышение привилегий в системах unix путем использования неправильно настроенных двоичных файлов setuid/setgid, возможностей и разрешений sudo. Разработан для CTF, но также применим и в реальных пентестах.
 
 **Аргументы:** - нету
 
-**OS** - любая
+**OS** - Linux
 
+```bash
+curl -sSL https://solo10010.github.io/ScriptHub/gtfonow.py | python3
+```
 ---
 
