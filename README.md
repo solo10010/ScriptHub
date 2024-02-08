@@ -29,8 +29,13 @@ curl -sSL https://solo10010.github.io/ScriptHub/measure.py | python3
 
 **Источник** - https://github.com/klazarsk/storagetoolkit/blob/main/topdiskconsumer
 
+**Просто запустить утилиту:**
 ```bash
 curl -sSL https://solo10010.github.io/ScriptHub/topdiskconsumer.sh | bash
+```
+**Запустить с аргументом help**
+```bash
+curl -sSL https://solo10010.github.io/ScriptHub/topdiskconsumer.sh | bash -s -- --help
 ```
 
 ---
