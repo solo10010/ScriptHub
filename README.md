@@ -26,6 +26,20 @@ curl -sSL https://solo10010.github.io/ScriptHub/measure.py | python3
 
 ---
 
+**ps_mem.py** - Утилита для точного отчета об использовании основной памяти процессами в системе, можно использовать для расчета max_children, и некоторых лругих параметров которые отвечают за потребление оперативы.
+
+**Источник** - https://github.com/pixelb/ps_mem
+
+**Аргументы:** - -h|--help -p PID -s|--split-args -t|--total -w N -d|--discriminate-by-pid -S|--swap
+
+**OS** - Linux
+
+```bash
+curl -sSL https://solo10010.github.io/ScriptHub/ps_mem.py | python3
+```
+
+---
+
 **topdiskconsumer.sh** - Этот скрипт облегчает задачу определения того, что у вас занимает место на диске.
 
 **Использование** - запустите его в любом каталоге файловой системы, которую необходимо диагностировать.
